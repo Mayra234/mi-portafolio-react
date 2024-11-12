@@ -1,0 +1,146 @@
+.container-projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: #f3f4f3;
+  margin-top: 60px;
+  padding-top: 30px;
+  scroll-margin-top: 60px;
+  overflow-x: hidden;
+}
+
+.content-cards-project {
+  width: 100%;
+  max-width: 640px;
+  display: flex;
+  row-gap: 17px;
+  justify-items: center;
+  align-items: center;
+}
+
+.card-project {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-image-project {
+  width: 100px;
+  height: 100px;
+}
+
+.image-project {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.title-project {
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+.date {
+  font-weight: bold;
+  color: #e91e63;
+}
+
+.link-project {
+  color: #212121;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 0 15px 15px 15px;
+  text-align: center;
+}
+
+.link-project :hover {
+  color: #e91e63;
+}
+.title-project {
+  color: #333333;
+  font-weight: 600;
+}
+
+.container-image-project {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-project {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.text-card-project {
+  line-height: 1.8;
+}
+
+.icon-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-nav > a {
+  margin: 5px;
+}
+
+.icon-link {
+  width: 30px;
+  height: 30px;
+  color: #212121;
+}
+
+.icons-project {
+  border: 1px solid #bdbbb7;
+}
+
+.icons-project:hover {
+  background: #e91e63;
+}
+
+.icons-project:hover .icon-link {
+  color: #f3f4f3;
+}
+
+@media (max-width: 768px) {
+  .card-project {
+    width: 100%;
+    flex-direction: row;
+  }
+
+  .content-cards-project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .link-project {
+    margin: 0 15px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .project {
+    width: 100%;
+  }
+}

@@ -1,0 +1,8 @@
+.separator {
+  height: 2px;
+  width: 100px;
+  background: #000;
+  display: block;
+  margin-bottom: 20px;
+  padding: 0;
+}

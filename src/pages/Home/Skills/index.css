@@ -1,0 +1,38 @@
+.tab-container {
+  padding-bottom: 34px;
+  margin-top: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+
+.tab-study {
+  display: grid;
+  gap: 34px;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+}
+
+.content-skills {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-items: center;
+  align-items: center;
+}
+
+.title-study {
+  font-size: 20px;
+}
+
+@media (max-width: 768px) {
+  .content-skills {
+    grid-template-columns: none;
+  }
+  .tab-study {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

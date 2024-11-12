@@ -1,0 +1,30 @@
+.navlinks {
+  margin-top: 7px;
+  margin-bottom: 18px;
+  padding-right: 15px;
+  align-items: center;
+  display: flex;
+  z-index: 1002;
+}
+
+@media (max-width: 768px) {
+  .navlinks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 23px;
+    top: 94px;
+    width: 95%;
+    height: 100%;
+    min-height: 373px;
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-y: auto;
+    margin-right: -100%;
+  }
+  .show {
+    margin-right: 0;
+    transition: all 0.5s;
+  }
+}

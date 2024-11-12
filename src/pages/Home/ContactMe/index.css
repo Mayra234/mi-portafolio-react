@@ -1,0 +1,57 @@
+.container-contact {
+  margin-top: 60px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+.content-card-contact {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contact-me {
+  width: 100%;
+  max-width: 300px;
+  margin: 15px;
+  height: auto;
+  animation-delay: 0.2s;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.contact-me > a {
+  color: #212121;
+  text-transform: none;
+}
+
+.title-contact {
+  font-size: 18px;
+}
+
+.icon-social {
+  color: #212121;
+}
+
+#linkedin {
+  width: 100%;
+  color: black;
+  text-transform: lowercase;
+}
+
+@media (max-width: 768px) {
+  .content-cards-contact {
+    flex-direction: column;
+  }
+  .contact-me {
+    max-width: 95%;
+    overflow-x: hidden;
+  }
+}

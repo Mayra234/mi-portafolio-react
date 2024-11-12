@@ -1,0 +1,31 @@
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  margin: 0 5px;
+}
+
+.link-nav {
+  font-size: 13px;
+}
+
+.link-nav:hover {
+  color: #e91e63;
+}
+
+.link-nav.active {
+  color: #e91e63;
+}
+
+@media (min-width: 802px) {
+  .nav {
+    margin: 0 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav {
+    margin-bottom: 40px;
+  }
+}

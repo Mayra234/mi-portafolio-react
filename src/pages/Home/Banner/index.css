@@ -1,0 +1,33 @@
+.content-banner {
+  background-image: url('../../../../public/fondo.jpeg');
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.banner {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-text {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-h3 {
+  color: #fff;
+  font-size: 24px !important;
+}
+
+.text-h1 {
+  color: #fff;
+  font-size: 60px !important;
+  font-weight: 200;
+}

@@ -1,0 +1,28 @@
+.tab-nav-item > a.active {
+  color: #e91e63;
+  box-shadow: 0 20px 40px rgba(130, 126, 126, 0.08);
+  background: transparent;
+}
+
+.tab-nav-item {
+  transition: all 0.5s ease;
+  flex-basis: 25%;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 18px;
+  padding: 30px 10px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.tab-nav-link {
+  color: #232323;
+  cursor: pointer;
+}
+
+.tab-nav-link.active {
+  color: #e91e63;
+  box-shadow: 0 20px 40px rgba(130, 126, 126, 0.08);
+  background: transparent;
+}
