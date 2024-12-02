@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
 import './index.css';
+import React, { useState } from 'react';
 import { Box } from '@mui/material';
+import { SKILLS, STUDIES } from '../../../constants/skills';
 import H2 from '../../../components/H2';
 import Separator from '../../../components/Separator';
 import Tabs from '../../../components/Tabs';
 import Card from '../../../components/Card';
-import { SKILLS, STUDIES } from '../../../constants/skills';
 import SkillBar from '../../../components/SkillBar';
 import H1 from '../../../components/H1';
 import H3 from '../../../components/H3';
