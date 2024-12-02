@@ -4,7 +4,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 90%;
+  width: 60%;
 }
 
 .tab-study {
@@ -13,23 +13,31 @@
   grid-template-columns: 1fr 1fr;
   justify-items: center;
   align-items: center;
+  width: 100px;
 }
 
 .content-skills {
   display: grid;
-  grid-template-columns: auto auto;
   justify-items: center;
   align-items: center;
 }
 
 .title-study {
-  font-size: 20px;
+  font-size: 20px !important;
+}
+
+.text-about-h2 {
+  font-weight: 700;
+  font-size: 36px !important;
+  color: #212121;
+  line-height: 1;
+  text-align: center;
+  margin-bottom: 5px;
+  margin-top: 20px;
+  margin-bottom: 5px;
 }
 
 @media (max-width: 768px) {
-  .content-skills {
-    grid-template-columns: none;
-  }
   .tab-study {
     display: flex;
     justify-content: center;

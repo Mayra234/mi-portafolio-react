@@ -2,7 +2,7 @@ import { Box } from '@mui/material';
 import './index.css';
 import React from 'react';
 
-const Tab = ({ id, className, text, onClick, index, currentIndex }) => {
+export const Tab = ({ id, className, text, onClick, index, currentIndex }) => {
   return (
     <Box className="container-tab">
       <li onClick={onClick} id={id} className={`tab-nav-item `}>
@@ -17,4 +17,3 @@ const Tab = ({ id, className, text, onClick, index, currentIndex }) => {
     </Box>
   );
 };
-export default Tab;

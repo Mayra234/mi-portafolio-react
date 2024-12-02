@@ -1,11 +1,11 @@
 import PropTypes from 'prop-types';
-import Tab from '../Tab';
+import { Tab } from '../Tab';
 import React from 'react';
 import './index.css';
 import { useEffect, useState } from 'react';
 import { Box } from '@mui/material';
 
-const Tabs = ({ className, tabs, onChange = () => {} }) => {
+const Tabs = ({ className, tabs, onChange }) => {
   const [currentTab, setCurrentTab] = useState(0);
 
   const onClickTab = (index) => {
@@ -32,6 +32,7 @@ const Tabs = ({ className, tabs, onChange = () => {} }) => {
     </Box>
   );
 };
+
 export default Tabs;
 Tabs.propTypes = {
   tabs: PropTypes.array,

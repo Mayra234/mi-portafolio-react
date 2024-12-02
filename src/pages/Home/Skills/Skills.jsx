@@ -5,7 +5,7 @@ import H2 from '../../../components/H2';
 import Separator from '../../../components/Separator';
 import Tabs from '../../../components/Tabs';
 import Card from '../../../components/Card';
-import { SKILLS } from '../../../constants/skills';
+import { SKILLS, STUDIES } from '../../../constants/skills';
 import SkillBar from '../../../components/SkillBar';
 import H1 from '../../../components/H1';
 import H3 from '../../../components/H3';
@@ -14,7 +14,7 @@ export const Skills = () => {
   const [currentTab, setCurrentTab] = useState(0);
   return (
     <Box id="skills" className="content-skills">
-      <H2>Habilidades</H2>
+      <H2 className="text-about-h2">Habilidades</H2>
       <Separator />
       <Tabs
         tabs={[

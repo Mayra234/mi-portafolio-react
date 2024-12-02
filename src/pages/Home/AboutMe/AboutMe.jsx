@@ -3,6 +3,7 @@ import React, { useEffect } from 'react';
 import me from '../../../../public/me.jpg';
 import H2 from '../../../components/H2';
 import H3 from '../../../components/H3';
+import './index.css';
 export const AboutMe = () => {
   useEffect(() => {
     const elemento = document.getElementsByClassName('list-links');
