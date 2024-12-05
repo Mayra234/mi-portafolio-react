@@ -4,16 +4,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 60%;
+  width: 90%;
 }
 
 .tab-study {
   display: grid;
   gap: 34px;
   grid-template-columns: 1fr 1fr;
+  grid-template-rows: 140px;
   justify-items: center;
   align-items: center;
-  width: 100px;
+  width: 50%;
 }
 
 .content-skills {
@@ -35,6 +36,13 @@
   margin-bottom: 5px;
   margin-top: 20px;
   margin-bottom: 5px;
+}
+
+.title-card {
+  height: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media (max-width: 768px) {
