@@ -33,6 +33,7 @@ const CustomButton = ({
       style={style}
       type={type}
       onClick={onClick}
+      sx={{ position: 'static' }}
     >
       {children}
     </MuiButton>

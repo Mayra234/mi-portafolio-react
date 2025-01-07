@@ -50,11 +50,23 @@
 .title-project {
   text-transform: uppercase;
   margin-top: 10px;
+  font-weight: 100;
 }
 
 .date {
   font-weight: bold;
   color: #e91e63;
+}
+
+.text-about-h2 {
+  font-weight: 700;
+  font-size: 36px !important;
+  color: #212121;
+  line-height: 1;
+  text-align: center;
+  margin-bottom: 5px;
+  margin-top: 20px;
+  margin-bottom: 5px;
 }
 
 .link-project {

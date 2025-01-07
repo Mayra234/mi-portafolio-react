@@ -44,7 +44,7 @@ export const Skills = () => {
             <Card key={i} palette="primary" shadow border>
               <Box className="title-card">
                 <H1 className="title-study">{study.title}</H1>
-                <H3>{study.placeAndDate}</H3>
+                <H3 className="title-date">{study.placeAndDate}</H3>
               </Box>
               <p></p>
             </Card>

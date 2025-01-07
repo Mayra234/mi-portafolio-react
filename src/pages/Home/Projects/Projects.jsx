@@ -15,7 +15,7 @@ import CustomButton from '../../../components/Button';
 export const Projects = () => {
   return (
     <Box id="project" className="container-projects">
-      <H2 className="title">Proyectos</H2>
+      <H2 className="text-about-h2">Proyectos</H2>
       <Separator />
       <Box className="content-cards-project">
         {PROJECTS.map((project, i) => (

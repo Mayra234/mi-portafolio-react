@@ -10,7 +10,7 @@ import { CONTACTS } from '../../../constants/contact';
 export const ContactMe = () => {
   return (
     <Box id="contact" className="container-contact">
-      <H2 className="title">Contáctame</H2>
+      <H2 className="text-about-h2">Contáctame</H2>
       <Separator />
       <Box className="content-card-contact">
         {CONTACTS.map((contact, i) => (
