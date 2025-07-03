@@ -1,9 +1,9 @@
-import { Box, Typography } from '@mui/material';
 import React, { useEffect } from 'react';
-import me from '../../../../public/me.jpg';
+import { Box, Typography } from '@mui/material';
 import H2 from '../../../components/H2';
 import H3 from '../../../components/H3';
 import './index.css';
+import me from '../../../assets/images/me.jpg';
 export const AboutMe = () => {
   useEffect(() => {
     const elemento = document.getElementsByClassName('list-links');

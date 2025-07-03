@@ -1,5 +1,5 @@
 .content-banner {
-  background-image: url('../../../../public/fondo.jpeg');
+  background-image: url('../../../assets/images/fondo.jpeg');
   background-position: center;
   background-size: cover;
   height: 100vh;

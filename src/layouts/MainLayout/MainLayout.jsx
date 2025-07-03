@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import './index.css';
+import me from '../../assets/images/me.jpg';
 import MenuIcon from '@mui/icons-material/Menu';
 import { Box } from '@mui/material';
-import me from '../../../public/me.jpg';
 import CustomButton from '../../components/Button';
 import Header from '../../components/Header'; // en lugar de { Header }
 import Navbar from '../../components/Navbar'; // en lugar de { Navbar }
