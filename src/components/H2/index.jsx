@@ -1,9 +1,12 @@
 import { Typography } from '@mui/material';
 import React from 'react';
 
-const H2 = ({ className, children, style }) => {
+const H2 = ({ className, children, fontWeight }) => {
   return (
-    <Typography className={className} style={{ style }}>
+    <Typography
+      className={className}
+      sx={{ fontWeight: fontWeight ? fontWeight : 'none' }}
+    >
       {children}
     </Typography>
   );

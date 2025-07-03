@@ -23,7 +23,7 @@
 
 @media (max-width: 768px) {
   .navbar {
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     align-items: flex-start;
     width: 67%;

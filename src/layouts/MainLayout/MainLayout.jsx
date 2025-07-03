@@ -17,29 +17,9 @@ const MainLayout = ({ children }) => {
   const toggleMenu = () => {
     setMenu(!menu);
   };
-
-  const links = [
-    {
-      children: 'Inicio',
-      route: '#banner',
-    },
-    {
-      children: 'Sobre mi',
-      route: '#about-me',
-    },
-    {
-      children: 'Hoja de vida',
-      route: '#skills',
-    },
-    {
-      children: 'Proyectos',
-      route: '#project',
-    },
-    {
-      children: 'Contacto',
-      route: '#contact',
-    },
-  ];
+  const handleLinkClick = () => {
+    setMenu(false); // Establece el estado a 'false' para cerrar siempre el menú
+  };
 
   return (
     <>
@@ -55,8 +35,9 @@ const MainLayout = ({ children }) => {
               }}
             >
               <ListNavLinks
-                className={`list-links ${menu ? 'show' : ''}`}
+                className={`list-links ${menu ? 'active' : ''}`}
                 links={links}
+                onLinkClick={handleLinkClick}
               />
             </Box>
           </Navbar>
@@ -78,3 +59,25 @@ const MainLayout = ({ children }) => {
   );
 };
 export default MainLayout;
+const links = [
+  {
+    children: 'Inicio',
+    route: '#banner',
+  },
+  {
+    children: 'Sobre mi',
+    route: '#about-me',
+  },
+  {
+    children: 'Hoja de vida',
+    route: '#skills',
+  },
+  {
+    children: 'Proyectos',
+    route: '#project',
+  },
+  {
+    children: 'Contacto',
+    route: '#contact',
+  },
+];

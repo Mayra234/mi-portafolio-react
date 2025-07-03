@@ -1,6 +1,5 @@
 import './index.css';
-import { useEffect, useState } from 'react';
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Button as MuiButton } from '@mui/material';
 const CustomButton = ({
   id,

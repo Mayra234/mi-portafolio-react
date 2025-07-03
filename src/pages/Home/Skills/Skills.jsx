@@ -14,7 +14,7 @@ export const Skills = () => {
   const [currentTab, setCurrentTab] = useState(0);
   return (
     <Box id="skills" className="content-skills">
-      <H2 className="text-about-h2">Habilidades</H2>
+      <H2 className="text-about-h2">Habilidades y estudios</H2>
       <Separator />
       <Tabs
         tabs={[

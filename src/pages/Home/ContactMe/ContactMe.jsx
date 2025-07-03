@@ -20,7 +20,9 @@ export const ContactMe = () => {
               target={contact.route && '_blank'}
             >
               <Icon>{contact.icon}</Icon>
-              <H2 className="title-contact">{contact.title}</H2>
+              <H2 fontWeight={700} className="title-contact">
+                {contact.title}
+              </H2>
               <p>{contact.text}</p>
             </a>
           </Card>

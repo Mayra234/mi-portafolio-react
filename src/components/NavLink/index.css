@@ -6,18 +6,21 @@
   margin: 0 5px;
 }
 
-.link-nav {
-  font-size: 13px;
-}
-
 .link-nav:hover {
   color: #e91e63;
 }
-
-.link-nav.active {
-  color: #e91e63;
+.link-nav {
+  color: black;
+  padding: 10px;
+  transition: color 0.3s;
+  font-size: 13px;
 }
 
+.active-link {
+  color: #ff4081;
+  font-weight: bold;
+  text-decoration: underline;
+}
 @media (min-width: 802px) {
   .nav {
     margin: 0 10px;
@@ -27,5 +30,11 @@
 @media (max-width: 768px) {
   .nav {
     margin-bottom: 40px;
+  }
+  .link-nav {
+    color: white;
+    padding: 10px;
+    transition: color 0.3s;
+    font-size: 13px;
   }
 }

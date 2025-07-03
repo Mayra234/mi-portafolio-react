@@ -2,10 +2,15 @@ import { Box } from '@mui/material';
 import './index.css';
 import React from 'react';
 
-const NavLink = ({ id, children, route, onClick, className }) => {
+const NavLink = ({ id, children, route, className, onLinkClick }) => {
   return (
-    <Box onClick={onClick} className="nav">
-      <a id={id} className={'link-nav ' + className} href={route}>
+    <Box className="nav">
+      <a
+        id={id}
+        className={'link-nav ' + className}
+        href={route}
+        onClick={onLinkClick}
+      >
         {children}
       </a>
     </Box>

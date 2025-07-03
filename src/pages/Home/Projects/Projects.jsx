@@ -21,7 +21,9 @@ export const Projects = () => {
         {PROJECTS.map((project, i) => (
           <Card key={i} palette="secondary" className="project">
             <Icon>{project.icon}</Icon>
-            <H3 className="title-project">{project.title}</H3>
+            <H3 className="title-project" fontWeight={700}>
+              {project.title}
+            </H3>
             <p className="date">{project.date}</p>
             <Box className="text-card-project">
               <Typography>{project.text}</Typography>

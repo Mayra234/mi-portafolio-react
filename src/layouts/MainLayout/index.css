@@ -30,31 +30,33 @@
 @media (max-width: 768px) {
   .bar-menu {
     display: flex !important;
-    position: absolute;
-    right: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 20px;
-    margin-bottom: 20px;
+    position: absolute; /* Usar 'absolute' es mejor que repetirlo */
+    right: 20px;
+    top: 8px; /* Alinea mejor con la parte superior */
+    z-index: 1100; /* Asegura que el botón esté sobre el menú */
   }
 
   .list-links {
+    /* Estilos base del menú móvil */
     flex-direction: column;
-    position: absolute;
+    justify-content: center; /* Centra los items verticalmente */
+    align-items: center;
+    position: fixed; /* 'fixed' para que ocupe toda la pantalla */
     top: 0;
     right: 0;
     width: 100%;
-    height: 100%;
-    min-height: 373px;
+    height: 100vh; /* Ocupa toda la altura de la ventana */
     background-color: rgba(0, 0, 0, 0.9);
-    overflow-y: auto;
+
+    /* --- La Magia está Aquí --- */
+    /* 1. Oculta el menú por defecto moviéndolo fuera de la pantalla */
+    transform: translateX(100%);
+    /* 2. Añade una transición suave para la aparición y desaparición */
+    transition: transform 0.3s ease-in-out;
   }
 
   .list-links.active {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    /* 3. Muestra el menú cuando tiene la clase 'active' */
+    transform: translateX(0);
   }
 }
