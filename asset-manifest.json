@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/mi-portafolio-rect/static/css/main.3d921a36.css",
-    "main.js": "/mi-portafolio-rect/static/js/main.cb22f51d.js",
-    "static/media/me.jpg": "/mi-portafolio-rect/static/media/me.0c36bdf99ad329dff20f.jpg",
-    "static/media/Poppins-Regular.ttf": "/mi-portafolio-rect/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
-    "static/media/fondo.jpeg": "/mi-portafolio-rect/static/media/fondo.f921e61f13949516321e.jpeg",
-    "index.html": "/mi-portafolio-rect/index.html",
-    "main.3d921a36.css.map": "/mi-portafolio-rect/static/css/main.3d921a36.css.map",
-    "main.cb22f51d.js.map": "/mi-portafolio-rect/static/js/main.cb22f51d.js.map"
+    "main.css": "/mi-portafolio-react/static/css/main.582774cd.css",
+    "main.js": "/mi-portafolio-react/static/js/main.c31ae6c4.js",
+    "static/media/me.jpg": "/mi-portafolio-react/static/media/me.0c36bdf99ad329dff20f.jpg",
+    "static/media/Poppins-Regular.ttf": "/mi-portafolio-react/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
+    "static/media/fondo.jpeg": "/mi-portafolio-react/static/media/fondo.f921e61f13949516321e.jpeg",
+    "index.html": "/mi-portafolio-react/index.html",
+    "main.582774cd.css.map": "/mi-portafolio-react/static/css/main.582774cd.css.map",
+    "main.c31ae6c4.js.map": "/mi-portafolio-react/static/js/main.c31ae6c4.js.map"
   },
   "entrypoints": [
-    "static/css/main.3d921a36.css",
-    "static/js/main.cb22f51d.js"
+    "static/css/main.582774cd.css",
+    "static/js/main.c31ae6c4.js"
   ]
 }
