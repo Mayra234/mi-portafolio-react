@@ -42,7 +42,7 @@ const MainLayout = ({ children }) => {
             </Box>
           </Navbar>
           <CustomButton
-            className="bar-menu"
+            className={`bar-menu ${menu ? 'rotate-open' : 'rotate-close'}`}
             palette="secondary"
             id="button-menu"
             onClick={toggleMenu}

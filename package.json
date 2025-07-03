@@ -1,6 +1,6 @@
 {
   "homepage": "https://mayra234.github.io/mi-portafolio-react/",
-  "name": "mi-portafolio-rect",
+  "name": "mi-portafolio-react",
   "version": "1.0.0",
   "scripts": {
     "start": "webpack serve --mode=development",

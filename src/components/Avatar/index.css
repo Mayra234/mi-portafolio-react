@@ -53,3 +53,8 @@
     margin: 10px;
   }
 }
+@media (max-width: 630px) {
+  .avatar-name {
+    font-size: 20px;
+  }
+}

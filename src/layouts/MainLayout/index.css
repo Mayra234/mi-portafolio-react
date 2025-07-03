@@ -13,6 +13,8 @@
   background-color: transparent;
   border: 1px solid transparent;
   border-radius: 4px;
+  transition: transform 0.5s ease;
+  transform: rotate(0deg);
 }
 
 .list-links {
@@ -22,11 +24,31 @@
   align-items: center;
   margin: 0 10px;
 }
-.show {
-  transform: rotate(45deg);
-  box-shadow: #444 5px 5px 10px;
+.rotate-open {
+  animation: rotateClockwise 0.5s forwards;
 }
 
+.rotate-close {
+  animation: rotateCounterClockwise 0.5s forwards;
+}
+
+@keyframes rotateClockwise {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotateCounterClockwise {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
 @media (max-width: 768px) {
   .bar-menu {
     display: flex !important;
@@ -43,8 +65,8 @@
     align-items: center;
     position: fixed; /* 'fixed' para que ocupe toda la pantalla */
     top: 0;
-    right: 0;
-    width: 100%;
+    right: -10px;
+    width: 50%;
     height: 100vh; /* Ocupa toda la altura de la ventana */
     background-color: rgba(0, 0, 0, 0.9);
 
