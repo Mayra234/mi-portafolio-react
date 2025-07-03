@@ -49,8 +49,9 @@
 
 .title-project {
   text-transform: uppercase;
-  margin-top: 10px;
-  font-weight: 700;
+  margin-top: 20px;
+  font-weight: bold !important;
+  color: black;
 }
 
 .date {
@@ -82,10 +83,6 @@
 
 .link-project :hover {
   color: #e91e63;
-}
-.title-project {
-  color: #333333;
-  font-weight: 600;
 }
 
 .container-image-project {

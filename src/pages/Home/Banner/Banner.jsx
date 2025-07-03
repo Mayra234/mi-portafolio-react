@@ -11,10 +11,10 @@ export const Banner = () => {
       <Box className="banner">
         <Box className="welcome-text">
           <section>
-            <H3 className="text-h3">Bienvenido a mi sitio web</H3>
-            <H1 className="text-h1">Alejandra Diavanera</H1>
+            <H3 className="text-h3">¡Hola, soy Alejandra!</H3>
+            <H1 className="text-h1">Desarrolladora Frontend | React </H1>
             <CustomButton palette="primary">
-              <a href="#contact">Contáctame</a>
+              <a href="#project">Ver proyectos</a>
             </CustomButton>
           </section>
         </Box>

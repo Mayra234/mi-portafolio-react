@@ -28,8 +28,8 @@ const MainLayout = ({ children }) => {
           <Navbar className="menu-nav">
             <Avatar mainText="Mayra" image={me} />
             <Box
-              style={{
-                display: 'flex',
+              sx={{
+                display: { xs: 'inherit', sm: 'flex' },
                 justifyContent: 'center',
                 alignItems: 'center',
               }}

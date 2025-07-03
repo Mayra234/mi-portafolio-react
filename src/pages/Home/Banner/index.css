@@ -29,5 +29,21 @@
 .text-h1 {
   color: #fff;
   font-size: 60px !important;
-  font-weight: 200;
+  font-weight: bold;
+  opacity: 0;
+  transform: translateY(-50px);
+  animation: fadeDown 0.8s ease-out forwards;
+}
+
+@media (max-width: 630px) {
+  .text-h1 {
+    font-size: 45px !important;
+  }
+}
+
+@keyframes fadeDown {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

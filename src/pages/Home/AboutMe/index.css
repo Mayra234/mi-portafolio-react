@@ -41,16 +41,16 @@
 
 .text-about-h3 {
   color: #212121;
-  font-size: 19px !important;
+  font-size: 19px;
   text-transform: uppercase;
   letter-spacing: 3px;
   text-align: left;
-  margin-bottom: 15px !important;
+  margin-bottom: 15px;
 }
 
 .p {
-  text-align: left;
-  font-size: 15px !important;
+  text-align: justify;
+  font-size: 15px;
   color: #222;
   margin-bottom: 50px;
 }
@@ -80,9 +80,7 @@
     text-align: center;
   }
   .p {
-    font-size: 15px;
     color: #222;
     margin-bottom: 50px;
-    text-align: center;
   }
 }

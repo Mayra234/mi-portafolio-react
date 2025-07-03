@@ -2,11 +2,6 @@
   position: relative;
   display: flex;
   align-items: center;
-  min-width: 32px;
-  margin: 0 10px;
-  font-size: 32px;
-  letter-spacing: 3px;
-  font-weight: 800;
   color: #fff;
 }
 
@@ -55,6 +50,6 @@
 }
 @media (max-width: 630px) {
   .avatar-name {
-    font-size: 18px;
+    font-size: 15px;
   }
 }

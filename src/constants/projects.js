@@ -39,7 +39,7 @@ export const PROJECTS = [
   },
   {
     icon: <Groups3Icon />,
-    title: 'Clon del layout de Google meets',
+    title: 'Clon layout de Google meets',
     date: 'Enero 2022 - Abril 2022',
     text: 'Proyecto de maquetación web utilizando HTML, CSS, grid y flexbox para clonar la UI de Google meets.',
     githubUrl: 'https://github.com/Mayra234/layout-meet',

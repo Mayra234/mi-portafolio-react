@@ -23,16 +23,17 @@
 }
 
 .title-study {
-  font-size: 20px !important;
+  font-size: 20px;
 }
 
 .title-date {
   color: #e91e63;
+  font-weight: bold;
 }
 
 .text-about-h2 {
   font-weight: 700;
-  font-size: 36px !important;
+  font-size: 36px;
   color: #212121;
   line-height: 1;
   text-align: center;
@@ -54,5 +55,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .title-study {
+    font-size: 18px;
   }
 }
