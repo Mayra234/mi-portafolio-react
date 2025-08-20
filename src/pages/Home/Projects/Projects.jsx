@@ -1,16 +1,14 @@
 import React from 'react';
 import './index.css';
-import ReplyAllIcon from '@mui/icons-material/ReplyAll';
+import PublicIcon from '@mui/icons-material/Public';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import { Box, Button, Typography } from '@mui/material';
 import H2 from '../../../components/H2';
 import Separator from '../../../components/Separator';
 import Card from '../../../components/Card';
 import Icon from '../../../components/Icon';
-
 import { PROJECTS } from '../../../constants/projects';
 import H3 from '../../../components/H3';
-import CustomButton from '../../../components/Button';
 
 export const Projects = () => {
   return (
@@ -36,7 +34,7 @@ export const Projects = () => {
                   className="button-project"
                 >
                   <Icon>
-                    <ReplyAllIcon />
+                    <PublicIcon />
                   </Icon>
                 </Button>
               )}
