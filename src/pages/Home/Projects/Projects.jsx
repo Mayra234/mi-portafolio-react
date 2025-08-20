@@ -32,10 +32,14 @@ export const Projects = () => {
                   href={project.siteUrl}
                   target="_blank"
                   className="button-project"
+                  sx={{
+                    '&:hover': {
+                      backgroundColor: '#b8929fff',
+                      color: 'white',
+                    },
+                  }}
                 >
-                  <Icon>
-                    <PublicIcon />
-                  </Icon>
+                  <PublicIcon sx={{ color: '#e91e63' }} />
                 </Button>
               )}
               {project.githubUrl && (
@@ -43,10 +47,14 @@ export const Projects = () => {
                   href={project.githubUrl}
                   target="_blank"
                   className="button-project"
+                  sx={{
+                    '&:hover': {
+                      backgroundColor: '#b8929fff',
+                      color: 'white',
+                    },
+                  }}
                 >
-                  <Icon>
-                    <GitHubIcon />
-                  </Icon>
+                  <GitHubIcon sx={{ color: '#e91e63' }} />
                 </Button>
               )}
             </Box>
