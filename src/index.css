@@ -71,8 +71,12 @@ a {
   list-style-type: none;
 }
 
-.scroll a {
+.scroll .link-nav {
   color: #232323;
+}
+
+.scroll .link-nav:hover {
+  color: #e91e63;
 }
 
 h1 {
@@ -137,5 +141,8 @@ img {
 @media (max-width: 768px) {
   .scroll a {
     color: #fff;
+  }
+  .scroll .link-nav {
+    color: white;
   }
 }

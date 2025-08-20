@@ -24,12 +24,19 @@
   align-items: center;
   margin: 0 10px;
 }
+
 .rotate-open {
   animation: rotateClockwise 0.5s forwards;
 }
 
 .rotate-close {
   animation: rotateCounterClockwise 0.5s forwards;
+}
+
+.selected {
+  background-color: #e91e63; /* Color de fondo al seleccionar */
+  color: white !important;
+  font-weight: bold; /* Opcional: resaltar el texto */
 }
 
 @keyframes rotateClockwise {
@@ -55,7 +62,7 @@
     position: absolute; /* Usar 'absolute' es mejor que repetirlo */
     right: 20px;
     top: 8px; /* Alinea mejor con la parte superior */
-    z-index: 1100; /* Asegura que el botón esté sobre el menú */
+    z-index: 1000; /* Asegura que el botón esté sobre el menú */
   }
 
   .list-links {

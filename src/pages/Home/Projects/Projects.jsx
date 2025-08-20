@@ -2,7 +2,7 @@ import React from 'react';
 import './index.css';
 import ReplyAllIcon from '@mui/icons-material/ReplyAll';
 import GitHubIcon from '@mui/icons-material/GitHub';
-import { Box, Typography } from '@mui/material';
+import { Box, Button, Typography } from '@mui/material';
 import H2 from '../../../components/H2';
 import Separator from '../../../components/Separator';
 import Card from '../../../components/Card';
@@ -30,22 +30,26 @@ export const Projects = () => {
             </Box>
             <Box className="icon-nav">
               {project.siteUrl && (
-                <a href={project.siteUrl} target="_blank">
-                  <CustomButton className="icons-project">
-                    <Icon>
-                      <ReplyAllIcon />
-                    </Icon>
-                  </CustomButton>
-                </a>
+                <Button
+                  href={project.siteUrl}
+                  target="_blank"
+                  className="button-project"
+                >
+                  <Icon>
+                    <ReplyAllIcon />
+                  </Icon>
+                </Button>
               )}
               {project.githubUrl && (
-                <a href={project.githubUrl} target="_blank">
-                  <CustomButton className="icons-project">
-                    <Icon>
-                      <GitHubIcon />
-                    </Icon>
-                  </CustomButton>
-                </a>
+                <Button
+                  href={project.githubUrl}
+                  target="_blank"
+                  className="button-project"
+                >
+                  <Icon>
+                    <GitHubIcon />
+                  </Icon>
+                </Button>
               )}
             </Box>
           </Card>

@@ -9,6 +9,7 @@
   padding-top: 30px;
   scroll-margin-top: 60px;
   overflow-x: hidden;
+  z-index: 1;
 }
 
 .content-cards-project {
@@ -107,6 +108,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.button-project:hover {
+  background-color: #e91e63;
+  color: white;
 }
 
 .icon-nav > a {
